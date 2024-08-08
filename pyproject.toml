@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "qa-auto-hw16"
+version = "0.1.0"
+description = "test with 'Poetry'"
+authors = ["Vadim Korolev <vkorol98@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.2"
+selene = "^2.0.0rc9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
