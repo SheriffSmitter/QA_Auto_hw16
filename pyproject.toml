@@ -10,6 +10,9 @@ python = "^3.12"
 pytest = "^8.3.2"
 selene = "^2.0.0rc9"
 
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.2.6"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
